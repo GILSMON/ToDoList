@@ -63,10 +63,10 @@
       </div>
     </nav>
     <!-- search bar  -->
-    <div class="container mt-4  ">
+    <div class="container mt-4">
       <div class="row justify-content-center">
-        <div class="col-md-6 ">
-          <div class="input-group mb-3  shadow">
+        <div class="col-md-6">
+          <div class="input-group mb-3 shadow">
             <input
               type="text"
               class="form-control"
@@ -75,15 +75,48 @@
               aria-describedby="basic-addon2"
             />
             <!-- search icon -->
-            <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+            <span class="input-group-text" id="basic-addon2"
+              ><i class="fas fa-search"></i
+            ></span>
           </div>
-
         </div>
       </div>
-     
-
+      <!-- cards -->
+      <section>
+        <div class="row">
+          <!-- md -> 2 cards  lg - 3 cards -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-header d-flex justify-content-end gap-2">
+                <button type="button" class="btn btn-outline-primary">
+                  <i class="fas fa-feather-alt"></i>
+                </button>
+                <button type="button" class="btn btn-outline-danger">
+                  <i class="fas fa-trash"></i>
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">
+                  <img
+                  src=https://www.fearlessmotivation.com/wp-content/uploads/2017/02/work.jpg
+                  class="img-fluid" alt="task image">
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+              <div class="card-footer">
+                <button
+                  type="button"
+                  class="btn btn-outline-success fw-bolder float-end"
+                >
+                  Focus here
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-   
 
     <!-- JavaScript Bundle with Popper -->
     <script
