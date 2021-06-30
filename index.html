@@ -64,7 +64,7 @@
                 class="form-control"
                 id="imageurl"
                 aria-describedby="Image url"
-                placeholder ="https://example.com/image.jpg"
+                placeholder="https://example.com/image.jpg"
               />
             </div>
             <!-- task title form -->
@@ -97,13 +97,11 @@
               <textarea
                 rows="4"
                 class="form-control"
+                placeholder="eg: plant a mango tree near our house"
                 id="taskdescription"
                 aria-describedby="Task description"
-                placeholder="eg: plant a mango tree near our house"
-              >
-              </textarea>
+              ></textarea>
             </div>
-
           </div>
           <div class="modal-footer">
             <button
@@ -113,7 +111,13 @@
             >
               Close
             </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="saveChange() "
+            >
+              Save changes
+            </button>
           </div>
         </div>
       </div>
@@ -171,7 +175,8 @@
       </div>
       <!-- cards -->
       <section>
-        <div class="row">
+        <div class="row task__container ">
+          <!-- className = task__container -->
           <!-- md -> 2 cards  lg - 3 cards -->
           <div class="col-md-6 col-lg-4">
             <div class="card">
@@ -184,15 +189,16 @@
                 </button>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
+               
                 <p class="card-text">
                   <img
-                    src="https://www.fearlessmotivation.com/wp-content/uploads/2017/02/work.jpg"
+                    src="https://i.pinimg.com/originals/5a/41/5a/5a415a920784c5f24cbb802043a91944.jpg"
                     class="card-img-top"
                     alt="task image"
                   />
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">plant trees</h5>
+                <a href="#" class="btn btn-primary">oudoor</a>
               </div>
               <div class="card-footer">
                 <button
